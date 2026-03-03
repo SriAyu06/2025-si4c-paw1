@@ -1,0 +1,16 @@
+/* elemen selector */
+/* referensi wen colorhunt.co */
+body{
+    background-color: rgb(177, 206, 206);
+    color:blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.bg-warning{background-color: bisque;border-radius: 0px 30px 0px 30px;}
+.txt-center {text-align: center;}
+.txt-black {color: black;}
+.p-1{padding: 10px ;}
+.m-1 {margin: 10px;}
+.f-1 {font-size: 20px;}
