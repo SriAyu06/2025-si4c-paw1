@@ -38,7 +38,9 @@ function tampil(){
     hasil.forEach(element => {
 
         // console.log(element)
-        document.getElementById('list-mhs').innerHTML += `<li>${element.npm} ${element.nama}</li>`
+        document.getElementById('list-mhs').innerHTML += `<div class = " col-lg-4 col-md-6"><h4 class = "txt-primary"> ${element.nama} </h4>
+        <h6 class ="text-danger">NPM: ${element.npm}</h6>
+        </div>`
     });
 }
 
